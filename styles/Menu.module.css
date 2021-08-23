@@ -1,0 +1,40 @@
+.topMenu {
+  padding: 0 2rem;
+  background-color: rgb(26, 89, 224);
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+}
+
+.newBtn {
+  padding: 1rem;
+  background-color: rgb(4, 37, 87);
+  color: aliceblue;
+  border: none;
+  margin-left: 2rem;
+}
+
+.newBtnAction {
+  padding: 1rem;
+  background-color: rgb(4, 37, 87);
+  color: aliceblue;
+  border: none;
+  margin-left: 1px;
+}
+
+.newBtn:hover, .newBtnAction:hover {
+  background-color: rgb(197, 116, 11);
+}
+
+.newBtn:active, .newBtnAction:active {
+  background-color: rgb(2, 60, 136);
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.formContainer > * {
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,75 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.topMenu {
+  padding: 0 2rem;
+  background-color: rgb(26, 89, 224);
+  color: aliceblue;
+}
+
+.containerMain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.mainPoker {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.formContainer > * {
+  margin-bottom: 1rem;
+  height: 30px;
+}
+
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #bbbaba;
+  padding: 2rem;
+  flex: 1;
+}
+
+.rightColumn {
+  flex: 1;
+  margin-left: 1rem;
+}
+
+.ulList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.listPokers {
+  padding: 0.3rem 1rem;
+  background-color: darkkhaki;
+  margin: 3px;
+}
+
+.listPokers:hover {
+  background-color: rgb(167, 202, 236);
+}
+
+.listPokers a {
+  display: block;
+}

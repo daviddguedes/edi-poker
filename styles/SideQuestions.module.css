@@ -1,0 +1,33 @@
+.sidebar {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: #f7f7f7;
+  padding: 0 1rem;
+}
+
+.ulSidebar {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list {
+  padding: 1rem;
+  margin: 0 0 .2rem;
+  border: 1px solid #dadada;
+}
+
+.list:hover {
+  background-color: #1a59e0;
+  color: aliceblue;
+}
+
+.list:active {
+  background-color: darkgray;
+}
+
+.taskActive {
+  background-color: #1a59e0;
+  color: aliceblue;
+}

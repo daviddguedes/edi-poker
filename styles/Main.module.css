@@ -1,0 +1,92 @@
+.main {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  background-color: whitesmoke;
+}
+
+.containerPlayers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.liPlayer {
+  padding: 0 2rem;
+  background-color: #1a59e0;
+  color: aliceblue;
+  margin-bottom: .5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  min-width: 100px;
+  min-height: 10rem;
+  background-color: #1a59e0;
+  color: aliceblue;
+  margin: .5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  border: 3px solid #8db2eb;
+}
+
+.card:hover {
+  border: 3px solid #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card:hover .cardClose {
+  visibility: visible;
+}
+
+.cardClose {
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  visibility: hidden;
+}
+
+.cardClose button {
+  border: none;
+  background-color: #1a59e0;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.points {
+  font-size: 2rem;
+}
+
+.bottomCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  background-color: #dedede;
+  padding: 10px;
+}
+
+.bottomCardsItem {
+  flex: 1 auto;
+  background-color: #1a59e0;
+  color: aliceblue;
+  align-items: center;
+  border: 2px solid #8db2eb;
+  display: flex;
+  justify-content: center;
+}
+
+.bottomCardsItem:hover {
+  border: 3px solid #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.status {
+  background-color: #1a59e0;
+  color: aliceblue;
+  padding: 2px 5px;
+}
